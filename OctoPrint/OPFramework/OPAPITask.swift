@@ -87,24 +87,23 @@ class OPAPITask: NSObject {
             let host = NSUserDefaults.standardUserDefaults().stringForKey("OctoPrintHost")!
             let endPoint = "http://\(host)/api/\(self.endPoint)"
             
-            
             var message:String?
             
             self.alamofireManager
                 .request(method, endPoint, parameters: parameters, encoding: .JSON)
-                .responseString { request, response, string, error in
-                    message = string
+                .responseString { response in
+                    message = response.result.value
                 }
                 .responseJSON {
-                    (request, response, jsonData, error) -> Void in
-                    if let error = error {
+                    (response) -> Void in
+                    if let error = response.result.error {
                         //print(error)
                         print(message)
                         self.failureBlock?(error)
                         self.scheduleTimer()
                     } else {
                         //print(jsonData)
-                        let json = JSON(jsonData ?? [])
+                        let json = JSON(response.result.value ?? [])
                         self.lastSuccessfulRun = NSDate()
                         self.successBlock?(json)
                         self.scheduleTimer()

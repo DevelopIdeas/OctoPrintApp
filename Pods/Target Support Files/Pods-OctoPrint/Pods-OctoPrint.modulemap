@@ -1,0 +1,6 @@
+framework module Pods_OctoPrint {
+  umbrella header "Pods-OctoPrint-umbrella.h"
+
+  export *
+  module * { export * }
+}

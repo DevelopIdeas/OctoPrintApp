@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import QRCodeReader
 
 class SettingsTableViewController: UITableViewController, UITextFieldDelegate, QRCodeReaderViewControllerDelegate {
     
@@ -45,31 +46,22 @@ class SettingsTableViewController: UITableViewController, UITextFieldDelegate, Q
     @IBAction func scanButtonTapped(sender: AnyObject) {
         if QRCodeReader.supportsMetadataObjectTypes() {
             reader.modalPresentationStyle = .FormSheet
-            reader.delegate               = self
-            
-            reader.completionBlock = { (result: String?) in
-                print("Completion with result: \(result)")
-            }
+            reader.delegate  = self
             
             presentViewController(reader, animated: true, completion: nil)
-        }
-        else {
+        } else {
             let alert = UIAlertController(title: "Whoops!", message: "Scanner not supported by the current device.", preferredStyle: .Alert)
             alert.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: nil))
             
             presentViewController(alert, animated: true, completion: nil)
         }
     }
-    
-    
-    
-  
-    
+
     // MARK: - QRCodeReader Delegate Methods
     
-    func reader(reader: QRCodeReaderViewController, didScanResult result: String) {
+    func reader(reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
         self.dismissViewControllerAnimated(true, completion: { [unowned self] () -> Void in
-                self.apiKeyTextField.text = result
+            self.apiKeyTextField.text = result.value
         })
     }
     

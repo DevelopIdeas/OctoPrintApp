@@ -254,7 +254,7 @@ class DirectionControl: UIControl {
 				initialSpringVelocity: 1,
 				options: UIViewAnimationOptions.AllowUserInteraction,
 				animations: { () -> Void in
-					pointerView?.frame = targetPointerFrame()
+					self.pointerView?.frame = self.targetPointerFrame()
 				}, completion: nil)
 	}
 	

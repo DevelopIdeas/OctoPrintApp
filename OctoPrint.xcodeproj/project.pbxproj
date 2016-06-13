@@ -10,10 +10,6 @@
 		4C3855C51B69494700C508D6 /* camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3855C21B69494700C508D6 /* camera@3x.png */; };
 		4C3855C61B69494700C508D6 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3855C31B69494700C508D6 /* camera@2x.png */; };
 		4C3855C71B69494700C508D6 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3855C41B69494700C508D6 /* camera.png */; };
-		4C3855E41B694DF300C508D6 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3855E01B694DF300C508D6 /* QRCodeReader.swift */; };
-		4C3855E51B694DF300C508D6 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3855E11B694DF300C508D6 /* QRCodeViewController.swift */; };
-		4C3855E61B694DF300C508D6 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3855E21B694DF300C508D6 /* ReaderOverlayView.swift */; };
-		4C3855E71B694DF300C508D6 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3855E31B694DF300C508D6 /* SwitchCameraButton.swift */; };
 		4C80C2C31B66729500ADB99E /* temperature@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C80C2BA1B66729500ADB99E /* temperature@3x.png */; };
 		4C80C2C41B66729500ADB99E /* temperature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C80C2BB1B66729500ADB99E /* temperature@2x.png */; };
 		4C80C2C51B66729500ADB99E /* temperature.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C80C2BC1B66729500ADB99E /* temperature.png */; };
@@ -32,11 +28,7 @@
 		4CADF1871B5FCF0E0090AFEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CADF1851B5FCF0E0090AFEC /* LaunchScreen.storyboard */; };
 		4CADF1921B5FCF0E0090AFEC /* OctoPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADF1911B5FCF0E0090AFEC /* OctoPrintTests.swift */; };
 		4CADF19D1B5FCF0E0090AFEC /* OctoPrintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADF19C1B5FCF0E0090AFEC /* OctoPrintUITests.swift */; };
-		4CADF1B91B5FD0ED0090AFEC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CADF1B21B5FCFE70090AFEC /* Alamofire.framework */; };
-		4CADF1BA1B5FD0ED0090AFEC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CADF1B21B5FCFE70090AFEC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CADF1BF1B5FD16C0090AFEC /* OPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADF1BE1B5FD16C0090AFEC /* OPManager.swift */; };
-		4CADF1ED1B5FEA300090AFEC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CADF1E61B5FEA250090AFEC /* SwiftyJSON.framework */; };
-		4CADF1EE1B5FEA300090AFEC /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CADF1E61B5FEA250090AFEC /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CB0CCB81B610C1200673CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB0CCB61B610C1200673CC9 /* Main.storyboard */; };
 		4CB0CCBA1B61118200673CC9 /* TemperatureSelectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0CCB91B61118200673CC9 /* TemperatureSelectorTableViewController.swift */; };
 		4CB0CCBC1B611AFB00673CC9 /* TemperaturePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0CCBB1B611AFB00673CC9 /* TemperaturePickerTableViewCell.swift */; };
@@ -48,6 +40,7 @@
 		4CB711E51B640672001A01C9 /* OPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB711E41B640672001A01C9 /* OPTool.swift */; };
 		4CBE55601B6518990089CE7C /* IPCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE555F1B6518990089CE7C /* IPCameraView.swift */; };
 		4CBE556A1B651A070089CE7C /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE55691B651A070089CE7C /* ControlViewController.swift */; };
+		8758A7B1EC16367FA719ABC9 /* Pods_OctoPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE3BC2468D160C447C37CCE /* Pods_OctoPrint.framework */; };
 		FD02F73C1B679CBB00E385E9 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FD02F7391B679CBB00E385E9 /* settings.png */; };
 		FD02F73D1B679CBB00E385E9 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD02F73A1B679CBB00E385E9 /* settings@3x.png */; };
 		FD02F73E1B679CBB00E385E9 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD02F73B1B679CBB00E385E9 /* settings@2x.png */; };
@@ -69,76 +62,6 @@
 			remoteGlobalIDString = 4CADF1781B5FCF0E0090AFEC;
 			remoteInfo = OctoPrint;
 		};
-		4CADF1B11B5FCFE70090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		4CADF1B31B5FCFE70090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
-			remoteInfo = "Alamofire OSX";
-		};
-		4CADF1B51B5FCFE70090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS Tests";
-		};
-		4CADF1B71B5FCFE70090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
-			remoteInfo = "Alamofire OSX Tests";
-		};
-		4CADF1BB1B5FD0ED0090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		4CADF1E51B5FEA250090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
-			remoteInfo = "SwiftyJSON iOS";
-		};
-		4CADF1E71B5FEA250090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFE619575BE100351305;
-			remoteInfo = "SwiftyJSON iOS Tests";
-		};
-		4CADF1E91B5FEA250090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
-			remoteInfo = "SwiftyJSON OSX";
-		};
-		4CADF1EB1B5FEA250090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
-			remoteInfo = "SwiftyJSON OSX Tests";
-		};
-		4CADF1EF1B5FEA300090AFEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
-			remoteInfo = "SwiftyJSON iOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,8 +71,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4CADF1EE1B5FEA300090AFEC /* SwiftyJSON.framework in Embed Frameworks */,
-				4CADF1BA1B5FD0ED0090AFEC /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,13 +78,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2AE3BC2468D160C447C37CCE /* Pods_OctoPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OctoPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3855C21B69494700C508D6 /* camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera@3x.png"; path = "images/camera@3x.png"; sourceTree = "<group>"; };
 		4C3855C31B69494700C508D6 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera@2x.png"; path = "images/camera@2x.png"; sourceTree = "<group>"; };
 		4C3855C41B69494700C508D6 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = images/camera.png; sourceTree = "<group>"; };
-		4C3855E01B694DF300C508D6 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
-		4C3855E11B694DF300C508D6 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
-		4C3855E21B694DF300C508D6 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
-		4C3855E31B694DF300C508D6 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
 		4C80C2BA1B66729500ADB99E /* temperature@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "temperature@3x.png"; path = "images/temperature@3x.png"; sourceTree = "<group>"; };
 		4C80C2BB1B66729500ADB99E /* temperature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "temperature@2x.png"; path = "images/temperature@2x.png"; sourceTree = "<group>"; };
 		4C80C2BC1B66729500ADB99E /* temperature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temperature.png; path = images/temperature.png; sourceTree = "<group>"; };
@@ -188,9 +106,7 @@
 		4CADF1981B5FCF0E0090AFEC /* OctoPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CADF19C1B5FCF0E0090AFEC /* OctoPrintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoPrintUITests.swift; sourceTree = "<group>"; };
 		4CADF19E1B5FCF0E0090AFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		4CADF1BE1B5FD16C0090AFEC /* OPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPManager.swift; sourceTree = "<group>"; };
-		4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		4CB0CCB71B610C1200673CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CB0CCB91B61118200673CC9 /* TemperatureSelectorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureSelectorTableViewController.swift; sourceTree = "<group>"; };
 		4CB0CCBB1B611AFB00673CC9 /* TemperaturePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperaturePickerTableViewCell.swift; sourceTree = "<group>"; };
@@ -202,6 +118,8 @@
 		4CB711E41B640672001A01C9 /* OPTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPTool.swift; sourceTree = "<group>"; };
 		4CBE555F1B6518990089CE7C /* IPCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPCameraView.swift; sourceTree = "<group>"; };
 		4CBE55691B651A070089CE7C /* ControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		D8A990A77B1A36DAD99C8B57 /* Pods-OctoPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OctoPrint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OctoPrint/Pods-OctoPrint.debug.xcconfig"; sourceTree = "<group>"; };
+		E0634FE015C26580D68843F9 /* Pods-OctoPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OctoPrint.release.xcconfig"; path = "Pods/Target Support Files/Pods-OctoPrint/Pods-OctoPrint.release.xcconfig"; sourceTree = "<group>"; };
 		FD02F7391B679CBB00E385E9 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = images/settings.png; sourceTree = "<group>"; };
 		FD02F73A1B679CBB00E385E9 /* settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@3x.png"; path = "images/settings@3x.png"; sourceTree = "<group>"; };
 		FD02F73B1B679CBB00E385E9 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "images/settings@2x.png"; sourceTree = "<group>"; };
@@ -213,8 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CADF1ED1B5FEA300090AFEC /* SwiftyJSON.framework in Frameworks */,
-				4CADF1B91B5FD0ED0090AFEC /* Alamofire.framework in Frameworks */,
+				8758A7B1EC16367FA719ABC9 /* Pods_OctoPrint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,17 +152,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C3855DF1B694DF300C508D6 /* QRCodeReader */ = {
+		4435F2AE9F1AAB3EEAA324FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C3855E01B694DF300C508D6 /* QRCodeReader.swift */,
-				4C3855E11B694DF300C508D6 /* QRCodeViewController.swift */,
-				4C3855E21B694DF300C508D6 /* ReaderOverlayView.swift */,
-				4C3855E31B694DF300C508D6 /* SwitchCameraButton.swift */,
+				2AE3BC2468D160C447C37CCE /* Pods_OctoPrint.framework */,
 			);
-			name = QRCodeReader;
-			path = QRCodeReader.swift/QRCodeReader;
-			sourceTree = SOURCE_ROOT;
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
 		4C80C2B31B66728400ADB99E /* Images */ = {
 			isa = PBXGroup;
@@ -272,12 +185,12 @@
 		4CADF1701B5FCF0E0090AFEC = {
 			isa = PBXGroup;
 			children = (
-				4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */,
 				4CADF17B1B5FCF0E0090AFEC /* OctoPrint */,
 				4CADF1901B5FCF0E0090AFEC /* OctoPrintTests */,
 				4CADF19B1B5FCF0E0090AFEC /* OctoPrintUITests */,
 				4CADF17A1B5FCF0E0090AFEC /* Products */,
-				4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */,
+				775917C00DD4BD1CD48C99CC /* Pods */,
+				4435F2AE9F1AAB3EEAA324FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,7 +207,6 @@
 		4CADF17B1B5FCF0E0090AFEC /* OctoPrint */ = {
 			isa = PBXGroup;
 			children = (
-				4C3855DF1B694DF300C508D6 /* QRCodeReader */,
 				4C80C2B31B66728400ADB99E /* Images */,
 				4CADF17C1B5FCF0E0090AFEC /* AppDelegate.swift */,
 				4CB0CCB61B610C1200673CC9 /* Main.storyboard */,
@@ -333,28 +245,6 @@
 			path = OctoPrintUITests;
 			sourceTree = "<group>";
 		};
-		4CADF1AB1B5FCFE70090AFEC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CADF1B21B5FCFE70090AFEC /* Alamofire.framework */,
-				4CADF1B41B5FCFE70090AFEC /* Alamofire.framework */,
-				4CADF1B61B5FCFE70090AFEC /* Alamofire iOS Tests.xctest */,
-				4CADF1B81B5FCFE70090AFEC /* Alamofire OSX Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4CADF1DF1B5FEA250090AFEC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CADF1E61B5FEA250090AFEC /* SwiftyJSON.framework */,
-				4CADF1E81B5FEA250090AFEC /* SwiftyJSON iOS Tests.xctest */,
-				4CADF1EA1B5FEA250090AFEC /* SwiftyJSON.framework */,
-				4CADF1EC1B5FEA250090AFEC /* SwiftyJSON OSX Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4CB711E61B641CDC001A01C9 /* OPFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +259,15 @@
 			path = OPFramework;
 			sourceTree = "<group>";
 		};
+		775917C00DD4BD1CD48C99CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8A990A77B1A36DAD99C8B57 /* Pods-OctoPrint.debug.xcconfig */,
+				E0634FE015C26580D68843F9 /* Pods-OctoPrint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -376,16 +275,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CADF1A11B5FCF0E0090AFEC /* Build configuration list for PBXNativeTarget "OctoPrint" */;
 			buildPhases = (
+				2E961C77D29A854FF990F746 /* Check Pods Manifest.lock */,
 				4CADF1751B5FCF0E0090AFEC /* Sources */,
 				4CADF1761B5FCF0E0090AFEC /* Frameworks */,
 				4CADF1771B5FCF0E0090AFEC /* Resources */,
 				4CADF1BD1B5FD0ED0090AFEC /* Embed Frameworks */,
+				7FF68A49A807BBFFD49BB002 /* Embed Pods Frameworks */,
+				9A0B050F07B6913F1A149652 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4CADF1BC1B5FD0ED0090AFEC /* PBXTargetDependency */,
-				4CADF1F01B5FEA300090AFEC /* PBXTargetDependency */,
 			);
 			name = OctoPrint;
 			productName = OctoPrint;
@@ -461,16 +361,6 @@
 			mainGroup = 4CADF1701B5FCF0E0090AFEC;
 			productRefGroup = 4CADF17A1B5FCF0E0090AFEC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4CADF1AB1B5FCFE70090AFEC /* Products */;
-					ProjectRef = 4CADF1AA1B5FCFE70090AFEC /* Alamofire.xcodeproj */;
-				},
-				{
-					ProductGroup = 4CADF1DF1B5FEA250090AFEC /* Products */;
-					ProjectRef = 4CADF1DE1B5FEA250090AFEC /* SwiftyJSON.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4CADF1781B5FCF0E0090AFEC /* OctoPrint */,
@@ -479,65 +369,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4CADF1B21B5FCFE70090AFEC /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 4CADF1B11B5FCFE70090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1B41B5FCFE70090AFEC /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 4CADF1B31B5FCFE70090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1B61B5FCFE70090AFEC /* Alamofire iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 4CADF1B51B5FCFE70090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1B81B5FCFE70090AFEC /* Alamofire OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire OSX Tests.xctest";
-			remoteRef = 4CADF1B71B5FCFE70090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1E61B5FEA250090AFEC /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 4CADF1E51B5FEA250090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1E81B5FEA250090AFEC /* SwiftyJSON iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON iOS Tests.xctest";
-			remoteRef = 4CADF1E71B5FEA250090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1EA1B5FEA250090AFEC /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 4CADF1E91B5FEA250090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CADF1EC1B5FEA250090AFEC /* SwiftyJSON OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON OSX Tests.xctest";
-			remoteRef = 4CADF1EB1B5FEA250090AFEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4CADF1771B5FCF0E0090AFEC /* Resources */ = {
@@ -581,22 +412,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E961C77D29A854FF990F746 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF68A49A807BBFFD49BB002 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OctoPrint/Pods-OctoPrint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0B050F07B6913F1A149652 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OctoPrint/Pods-OctoPrint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CADF1751B5FCF0E0090AFEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3855E61B694DF300C508D6 /* ReaderOverlayView.swift in Sources */,
 				4CB711E51B640672001A01C9 /* OPTool.swift in Sources */,
 				4CADF17F1B5FCF0E0090AFEC /* OverviewTableViewController.swift in Sources */,
 				4C80C2CD1B6672CE00ADB99E /* TemperatureTableViewController.swift in Sources */,
-				4C3855E51B694DF300C508D6 /* QRCodeViewController.swift in Sources */,
 				4CBE55601B6518990089CE7C /* IPCameraView.swift in Sources */,
 				4CB711DF1B63E21A001A01C9 /* OPComponent.swift in Sources */,
 				4CB0CCBE1B61269900673CC9 /* Helpers.swift in Sources */,
 				4CB0CCBC1B611AFB00673CC9 /* TemperaturePickerTableViewCell.swift in Sources */,
 				4CB711E31B63E425001A01C9 /* OPBed.swift in Sources */,
-				4C3855E71B694DF300C508D6 /* SwitchCameraButton.swift in Sources */,
 				4CADF17D1B5FCF0E0090AFEC /* AppDelegate.swift in Sources */,
 				4CBE556A1B651A070089CE7C /* ControlViewController.swift in Sources */,
 				4CADF1BF1B5FD16C0090AFEC /* OPManager.swift in Sources */,
@@ -604,7 +480,6 @@
 				4C98065C1B6BD32E00B301C4 /* OPPrintHead.swift in Sources */,
 				4CB711DD1B63E05E001A01C9 /* OPAPITask.swift in Sources */,
 				4CB0CCBA1B61118200673CC9 /* TemperatureSelectorTableViewController.swift in Sources */,
-				4C3855E41B694DF300C508D6 /* QRCodeReader.swift in Sources */,
 				4CB711E11B63E27F001A01C9 /* OPHeatedComponent.swift in Sources */,
 				4C9806541B6BD02000B301C4 /* DirectionControl.swift in Sources */,
 			);
@@ -638,16 +513,6 @@
 			isa = PBXTargetDependency;
 			target = 4CADF1781B5FCF0E0090AFEC /* OctoPrint */;
 			targetProxy = 4CADF1991B5FCF0E0090AFEC /* PBXContainerItemProxy */;
-		};
-		4CADF1BC1B5FD0ED0090AFEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 4CADF1BB1B5FD0ED0090AFEC /* PBXContainerItemProxy */;
-		};
-		4CADF1F01B5FEA300090AFEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftyJSON iOS";
-			targetProxy = 4CADF1EF1B5FEA300090AFEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -756,11 +621,12 @@
 		};
 		4CADF1A21B5FCF0E0090AFEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A990A77B1A36DAD99C8B57 /* Pods-OctoPrint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = OctoPrint/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.xonaymedia.OctoPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -769,11 +635,12 @@
 		};
 		4CADF1A31B5FCF0E0090AFEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0634FE015C26580D68843F9 /* Pods-OctoPrint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = OctoPrint/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.xonaymedia.OctoPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";

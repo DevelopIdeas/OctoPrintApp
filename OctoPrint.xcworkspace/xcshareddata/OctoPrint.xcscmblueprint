@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30B86E201E281B773050607B864F414D5AAA1ED2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30B86E201E281B773050607B864F414D5AAA1ED2" : 0,
+    "E6D213C34030D0C425EBA064BAA7E3D79DD70BB0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB4B8185-955A-4162-A6A7-7AD3254D54E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30B86E201E281B773050607B864F414D5AAA1ED2" : "OctoPrintApp\/",
+    "E6D213C34030D0C425EBA064BAA7E3D79DD70BB0" : "OctoPrintApp\/QRCodeReader.swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OctoPrint",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OctoPrint.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DevelopIdeas\/OctoPrintApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30B86E201E281B773050607B864F414D5AAA1ED2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yannickl\/QRCodeReader.swift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6D213C34030D0C425EBA064BAA7E3D79DD70BB0"
+    }
+  ]
+}
