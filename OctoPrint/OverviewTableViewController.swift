@@ -11,7 +11,7 @@ import UIKit
 class OverviewTableViewController: UITableViewController {
 
     
-    let sections = ["Version", "State"]
+    let sections = ["State", "Current Job", "Version"]
     
     override func viewDidLoad() {
         title = "Info"
@@ -19,17 +19,16 @@ class OverviewTableViewController: UITableViewController {
         super.viewDidLoad()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateUI", key: .DidUpdatePrinter, object: OPManager.sharedInstance)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateUI", key: .DidUpdateJob, object: OPManager.sharedInstance)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateUI", key: .DidUpdateVersion, object: OPManager.sharedInstance)
         
         OPManager.sharedInstance.updateVersion()
         OPManager.sharedInstance.updatePrinter(autoUpdate:1)
+        OPManager.sharedInstance.updateJob(autoUpdate:1)
         OPManager.sharedInstance.updateSettings()
         
         updateUI()
     }
-    
-    
- 
 
     func updateUI() {
         tableView.reloadData()
@@ -43,12 +42,14 @@ class OverviewTableViewController: UITableViewController {
         
         switch section {
             case 0:
-                return 2
-            
-            case 1:
                 return 1
             
+            case 1:
+                return 6
             
+            case 2:
+                return 2
+
             default:
                 return 0
         }
@@ -77,25 +78,67 @@ class OverviewTableViewController: UITableViewController {
         switch shortPath {
             case (0, 0):
                 let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "Printer"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.printerStateText
+                cell.userInteractionEnabled = false
+                return cell
+
+            case (1, 0):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "File"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.filename
+                cell.userInteractionEnabled = false
+                return cell
+                
+            case (1, 1):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "Completed"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.completed
+                cell.userInteractionEnabled = false
+                return cell
+                
+            case (1, 2):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "Remaining"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.printTimeLeft
+                cell.userInteractionEnabled = false
+                return cell
+                
+            case (1, 3):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "Elapsed"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.printTimeElapsed
+                cell.userInteractionEnabled = false
+                return cell
+                
+            case (1, 4):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "Estimated Time"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.estimatedPrintTime
+                cell.userInteractionEnabled = false
+                return cell
+                
+            case (1, 5):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
+                cell.textLabel?.text = "Average Time"
+                cell.detailTextLabel?.text = OPManager.sharedInstance.averagePrintTime
+                cell.userInteractionEnabled = false
+                return cell
+
+            case (2, 0):
+                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
                 cell.textLabel?.text = "API"
                 cell.detailTextLabel?.text = OPManager.sharedInstance.apiVersion
                 cell.userInteractionEnabled = false
-            return cell
-            
-            case (0, 1):
+                return cell
+                
+            case (2, 1):
                 let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
                 cell.textLabel?.text = "Server"
                 cell.detailTextLabel?.text = OPManager.sharedInstance.serverVersion
                 cell.userInteractionEnabled = false
                 return cell
-            
-            case (1, 0):
-                let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
-                cell.textLabel?.text = "Printer"
-                cell.detailTextLabel?.text = OPManager.sharedInstance.printerStateText
-                cell.userInteractionEnabled = false
-                return cell
-        
+
             default:
                 let cell = tableView.dequeueReusableCellWithIdentifier("BasicCell", forIndexPath: indexPath)
                 cell.textLabel?.text = "Unknown cell!"
